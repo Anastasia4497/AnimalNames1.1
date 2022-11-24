@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string name;
+            name = ("Введите имена животных: Лямбда, Бакс, Принцесса");
+            Console.WriteLine(name);
+            Console.ReadLine();
+
         }
     }
-}
+    }
